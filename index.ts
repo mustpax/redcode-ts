@@ -26,7 +26,4 @@ export function lex(input: string) {
   return result.tokens;
 }
 
-console.log(
-  lex(`
-  `)
-);
+console.log(lex("\n \n \t"));
