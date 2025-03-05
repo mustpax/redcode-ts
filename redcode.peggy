@@ -8,15 +8,15 @@ line
   = (instr:instruction / comm:comment) EOL { return instr || comm; }
 
 instruction
-  = op:opcode mod:("." modifier)? a_mode:mmode? a_num:number? ("," b_mode:mmode? b_num:number)? comm:comment? {
+  = op:opcode mod:("." modifier)? (a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)?)? comm:comment? {
       return {
         type: "instruction",
         opcode: op,
         modifier: mod ? mod[1] : null,
-        a: {
+        a: a_num ? {
           mode: a_mode || "$", // Default addressing mode is direct ($)
           value: a_num
-        },
+        } : null,
         b: b_num ? {
           mode: b_mode || "$", // Default addressing mode is direct ($)
           value: b_num
@@ -26,7 +26,22 @@ instruction
     }
 
 opcode
-  = op:("DAT" / "MOV" / "ADD" / "SUB" / "MUL" / "DIV" / "MOD" / "JMP" / "JMZ" / "JMN" / "DJN" / "CMP" / "SLT" / "SPL" / "ORG" / "DJZ") { return op; }
+  = op:("DAT" 
+      / "MOV" 
+      / "ADD" 
+      / "SUB" 
+      / "MUL" 
+      / "DIV" 
+      / "MOD" 
+      / "JMP" 
+      / "JMZ" 
+      / "JMN" 
+      / "DJN" 
+      / "CMP" 
+      / "SLT" 
+      / "SPL" 
+      / "ORG" 
+      / "DJZ") { return op; }
 
 modifier
   = mod:("A" / "B" / "AB" / "BA" / "F" / "X" / "I") { return mod; }
