@@ -8,7 +8,7 @@ line
   = (instr:instruction / comm:comment) EOL { return instr || comm; }
 
 instruction
-  = op:opcode mod:("." modifier)? a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)? comm:comment? {
+  = op:opcode mod:("." modifier)? a_mode:mmode? a_num:number? ("," b_mode:mmode? b_num:number)? comm:comment? {
       return {
         type: "instruction",
         opcode: op,
