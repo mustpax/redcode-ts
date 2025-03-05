@@ -10,5 +10,9 @@
   },
   "dependencies": {
     "peggy": "^4.2.0"
+  },
+  "scripts": {
+    "dev": "bun run index.ts",
+    "build": "peggy -o gen/redcode.js --format es --dts redcode.peggy"
   }
 }
