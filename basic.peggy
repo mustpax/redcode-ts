@@ -43,10 +43,10 @@ operand
   { }
 
 modifier
-  = @mod:("A" / "B" / "AB" / "BA" / "F" / "X" / "I")
+  = @mod:("A"i / "B"i / "AB"i / "BA"i / "F"i / "X"i / "I"i)
 
 mmode
-  = mode:("#" / "$" / "@" / "<" / ">")
+  = mode:("#" / "$" / "*" / "@" / "{" / "}" / "<" / ">")
 
 _
   = [ \t]*
