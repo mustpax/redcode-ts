@@ -5,14 +5,17 @@ delimiter
   = _ "\n" _
 
 line
-  =  word? comment?
+  =  instruction? comment?
+
+WS 
+  = [ \t]+
 
 comment
   = ";" text:[^\r\n]* { return { type: "comment", text: text.join("") }; }
 
 
 opcode
-  = op:("DAT" 
+  = opcode:("DAT" 
       / "MOV" 
       / "ADD" 
       / "SUB" 
@@ -27,12 +30,15 @@ opcode
       / "SLT" 
       / "SPL" 
       / "ORG" 
-      / "DJZ")
+      / "DJZ") { return { type: 'opcode', opcode }; }
       
 instruction
- =  op:opcode mod:("." modifier)? (a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)?)? comm:comment? 
+ =  opcode ("." modifier)? (WS operand _ ("," _ operand)?)?
+ 
+// instruction
+//  =  op:opcode WS mod:("." modifier)? (a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)?)? 
 
-number
+operand
   = sign:[+-]? digits:[0-9]+
 
 modifier
@@ -40,9 +46,6 @@ modifier
 
 mmode
   = mode:("#" / "$" / "@" / "<" / ">")
-
-word
-  = text:$[a-z]i+ { return { type: "word", text }; }
 
 _
   = [ \t]*
