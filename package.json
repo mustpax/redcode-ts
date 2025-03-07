@@ -12,7 +12,7 @@
     "peggy": "^4.2.0"
   },
   "scripts": {
-    "dev": "peggy redcode.peggy -t 'DAT' --trace",
+    "dev": "peggy basic.peggy -t $'DAT\n' --trace -w",
     "build": "peggy -o gen/redcode.js --format es --dts redcode.peggy"
   }
 }

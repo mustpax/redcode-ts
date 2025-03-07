@@ -9,6 +9,7 @@ line
 
 instruction
   = op:opcode mod:("." modifier)? (a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)?)? comm:comment? {
+        console.log(arguments)
       return {
         type: "instruction",
         opcode: op,
