@@ -1,39 +1,14 @@
-// Redcode grammar based on redcode.g4
+list
+  = line|.., delimiter| delimiter?
 
-// Main entry point
-file
-  = l1:line lines:(EOL line)* EOL? { return { l1, lines } } 
+delimiter
+  = _ "\n" _
 
 line
-  = (comment / instr / '')
+  =  word / ""
 
-comment
-  = ";" text:[^\r\n]* { return { type: "comment", text: text.join("") }; }
+word
+  = $[a-z]i+
 
-instr
- = op:opcode { return op }
-
-opcode
-  = op:("DAT" 
-      / "MOV" 
-      / "ADD" 
-      / "SUB" 
-      / "MUL" 
-      / "DIV" 
-      / "MOD" 
-      / "JMP" 
-      / "JMZ" 
-      / "JMN" 
-      / "DJN" 
-      / "CMP" 
-      / "SLT" 
-      / "SPL" 
-      / "ORG" 
-      / "DJZ") { return op; }
-
-EOL
-  = "\r\n" / "\n"
-
-// Skip whitespace
-_ "whitespace"
+_
   = [ \t]*
