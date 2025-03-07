@@ -5,10 +5,13 @@ delimiter
   = _ "\n" _
 
 line
-  =  word / ""
+  =  word? comment?
+
+comment
+  = ";" text:[^\r\n]* { return { type: "comment", text: text.join("") }; }
 
 word
-  = $[a-z]i+
+  = text:$[a-z]i+ { return { type: "word", text }; }
 
 _
   = [ \t]*
