@@ -9,6 +9,10 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "chevrotain": "^11.0.3"
+    "peggy": "^4.2.0"
+  },
+  "scripts": {
+    "dev": "peggy basic.peggy -T example.redcode --trace -w",
+    "build": "peggy -o gen/redcode.js --format es --dts redcode.peggy"
   }
 }
