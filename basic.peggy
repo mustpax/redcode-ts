@@ -2,7 +2,7 @@ list
   = line|.., delimiter| delimiter?
 
 delimiter
-  = _ "\n" _
+  = "\n"
 
 line
   =  instruction? comment?
