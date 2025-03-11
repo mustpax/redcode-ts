@@ -28,6 +28,23 @@ exports[`parse all examples dat.redcode 1`] = `
       "opcode": "DAT",
     },
   },
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": null,
+          "value": 1,
+        },
+        {
+          "mmode": null,
+          "value": 1,
+        },
+      ],
+      "modifier": null,
+      "opcode": "JMP",
+    },
+  },
 ]
 `;
 
