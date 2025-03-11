@@ -1,5 +1,5 @@
 DAT 0, 0
-dat
+dat ; this inst kills current process
 mov.x $1, }0
 ; comment text
 MOV

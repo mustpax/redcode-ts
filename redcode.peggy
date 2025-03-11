@@ -5,7 +5,7 @@ delimiter
   = "\n"
 
 line
-  =  instruction:instruction? comment:comment? {
+  =  instruction:instruction? _ comment:comment? {
     return { instruction, comment };
   }
 
@@ -35,7 +35,10 @@ opcode
       / "DJZ"i)
       
 instruction
- =  opcode:opcode modifier:("." @modifier)? args:(WS @operand _ @("," _ @operand)?)? { return { opcode, modifier, args} }
+ =  opcode:opcode modifier:("." @modifier)? args:args? { return { opcode, modifier, args} }
+
+args
+ = WS arg1:operand _ arg2:("," _ @operand)? { return [arg1, arg2] }
  
 // instruction
 //  =  op:opcode WS mod:("." modifier)? (a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)?)? 
@@ -43,7 +46,6 @@ instruction
 operand
   = mmode:mmode? sign:[+-]? digits:[0-9]+ 
   { return {
-      type: 'operand',
       mmode,
       value: parseInt((sign ?? '') + digits)
     }
