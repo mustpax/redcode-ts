@@ -33,17 +33,22 @@ opcode
       / "DJZ"i) { return { type: 'opcode', opcode }; }
       
 instruction
- =  opcode ("." modifier)? (WS operand _ ("," _ operand)?)?
+ =  opcode:opcode modifier:("." @modifier)? ops:(WS @operand _ @("," _ @operand)?)? { return { opcode, modifier, ops} }
  
 // instruction
 //  =  op:opcode WS mod:("." modifier)? (a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)?)? 
 
 operand
-  = mmode? [+-]? [0-9]+ 
-  { }
+  = mmode:mmode? sign:[+-]? digits:[0-9]+ 
+  { return {
+      type: 'operand',
+      mmode,
+      value: parseInt((sign ?? '') + digits)
+    }
+  }
 
 modifier
-  = @mod:("A"i / "B"i / "AB"i / "BA"i / "F"i / "X"i / "I"i)
+  = mod:("A"i / "B"i / "AB"i / "BA"i / "F"i / "X"i / "I"i)
 
 mmode
   = mode:("#" / "$" / "*" / "@" / "{" / "}" / "<" / ">")
