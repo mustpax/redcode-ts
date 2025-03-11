@@ -1,7 +1,7 @@
 DAT 0, 0
 dat
 mov.x $1, }0
-; comment
+; comment text
 MOV
 
 add #4, +3

@@ -1,21 +1,23 @@
-list
-  = line|.., delimiter| delimiter?
+program
+  = @line|.., delimiter| delimiter?
 
 delimiter
   = "\n"
 
 line
-  =  instruction? comment?
+  =  instruction:instruction? comment:comment? {
+    return { instruction, comment };
+  }
 
 WS 
   = [ \t]+
 
 comment
-  = ";" text:[^\r\n]* { return { type: "comment", text: text.join("") }; }
+  = ";" text:[^\r\n]* { return text.join(""); }
 
 
 opcode
-  = opcode:("DAT"i 
+  = @("DAT"i 
       / "MOV"i 
       / "ADD"i 
       / "SUB"i 
@@ -30,10 +32,10 @@ opcode
       / "SLT"i 
       / "SPL"i 
       / "ORG"i 
-      / "DJZ"i) { return { type: 'opcode', opcode }; }
+      / "DJZ"i)
       
 instruction
- =  opcode:opcode modifier:("." @modifier)? ops:(WS @operand _ @("," _ @operand)?)? { return { opcode, modifier, ops} }
+ =  opcode:opcode modifier:("." @modifier)? args:(WS @operand _ @("," _ @operand)?)? { return { opcode, modifier, args} }
  
 // instruction
 //  =  op:opcode WS mod:("." modifier)? (a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)?)? 
