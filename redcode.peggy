@@ -9,53 +9,41 @@ line
     return { instruction, comment };
   }
 
-WS 
+WS "whitespace"
   = [ \t]+
 
-comment
+_ "optional_whitespace"
+  = [ \t]*
+
+comment "comment"
   = ";" text:[^\r\n]* { return text.join(""); }
 
+opcode "opcode"
+  = op:(  "DAT"i / "MOV"i / "ADD"i / "SUB"i / "MUL"i 
+        / "DIV"i / "MOD"i / "JMP"i / "JMZ"i / "JMN"i
+        / "DJN"i / "CMP"i / "SLT"i / "SPL"i / "ORG"i
+        / "DJZ"i) ![$a-zA-Z0-9_] { return op.toUpperCase(); }
 
-opcode
-  = @("DAT"i 
-      / "MOV"i 
-      / "ADD"i 
-      / "SUB"i 
-      / "MUL"i 
-      / "DIV"i 
-      / "MOD"i 
-      / "JMP"i 
-      / "JMZ"i 
-      / "JMN"i 
-      / "DJN"i 
-      / "CMP"i 
-      / "SLT"i 
-      / "SPL"i 
-      / "ORG"i 
-      / "DJZ"i)
-      
-instruction
- =  opcode:opcode modifier:("." @modifier)? args:args? { return { opcode, modifier, args} }
+instruction "instruction"
+ = opcode:opcode 
+   modifier:("." @modifier)? 
+   args:args? 
+   { return { opcode, modifier, args }; }
 
 args
  = WS arg1:operand _ arg2:("," _ @operand)? { return [arg1, arg2] }
  
-// instruction
-//  =  op:opcode WS mod:("." modifier)? (a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)?)? 
-
-operand
-  = mmode:mmode? sign:[+-]? digits:[0-9]+ 
+operand "operand"
+  = mmode:mmode? 
+    sign:[-+]? 
+    digits:[0-9]+ ![$a-zA-Z_] // Prevent ambiguous continuations
   { return {
       mmode,
-      value: parseInt((sign ?? '') + digits)
-    }
-  }
+      value: parseInt((sign ?? '') + digits.join(''))
+    }; }
 
-modifier
-  = mod:("A"i / "B"i / "AB"i / "BA"i / "F"i / "X"i / "I"i)
+modifier "modifier"
+  = mod:("AB"i / "BA"i / [ABFXI]i) { return mod.toUpperCase(); }
 
-mmode
-  = mode:("#" / "$" / "*" / "@" / "{" / "}" / "<" / ">")
-
-_
-  = [ \t]*
+mmode "addressing_mode"
+  = mode:[#$*@{}<>]
