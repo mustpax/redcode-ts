@@ -1,67 +1,52 @@
-// Redcode grammar based on redcode.g4
+list
+  = line|.., delimiter| delimiter?
 
-// Main entry point
-file
-  = lines:line+ { return lines; }
+delimiter
+  = "\n"
 
 line
-  = (instr:instruction / comm:comment) EOL { return instr || comm; }
+  =  instruction? comment?
 
-instruction
-  = op:opcode mod:("." modifier)? (a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)?)? comm:comment? {
-        console.log(arguments)
-      return {
-        type: "instruction",
-        opcode: op,
-        modifier: mod ? mod[1] : null,
-        a: a_num ? {
-          mode: a_mode || "$", // Default addressing mode is direct ($)
-          value: a_num
-        } : null,
-        b: b_num ? {
-          mode: b_mode || "$", // Default addressing mode is direct ($)
-          value: b_num
-        } : null,
-        comment: comm
-      };
-    }
-
-opcode
-  = op:("DAT" 
-      / "MOV" 
-      / "ADD" 
-      / "SUB" 
-      / "MUL" 
-      / "DIV" 
-      / "MOD" 
-      / "JMP" 
-      / "JMZ" 
-      / "JMN" 
-      / "DJN" 
-      / "CMP" 
-      / "SLT" 
-      / "SPL" 
-      / "ORG" 
-      / "DJZ") { return op; }
-
-modifier
-  = mod:("A" / "B" / "AB" / "BA" / "F" / "X" / "I") { return mod; }
-
-mmode
-  = mode:("#" / "$" / "@" / "<" / ">") { return mode; }
-
-number
-  = sign:[+-]? digits:[0-9]+ { 
-      const value = parseInt(digits.join(""), 10);
-      return sign === "-" ? -value : value; 
-    }
+WS 
+  = [ \t]+
 
 comment
   = ";" text:[^\r\n]* { return { type: "comment", text: text.join("") }; }
 
-EOL
-  = "\r\n" / "\n"
 
-// Skip whitespace
-_ "whitespace"
+opcode
+  = opcode:("DAT"i 
+      / "MOV"i 
+      / "ADD"i 
+      / "SUB"i 
+      / "MUL"i 
+      / "DIV"i 
+      / "MOD"i 
+      / "JMP"i 
+      / "JMZ"i 
+      / "JMN"i 
+      / "DJN"i 
+      / "CMP"i 
+      / "SLT"i 
+      / "SPL"i 
+      / "ORG"i 
+      / "DJZ"i) { return { type: 'opcode', opcode }; }
+      
+instruction
+ =  opcode ("." modifier)? (WS operand _ ("," _ operand)?)?
+ 
+// instruction
+//  =  op:opcode WS mod:("." modifier)? (a_mode:mmode? a_num:number ("," b_mode:mmode? b_num:number)?)? 
+
+operand
+  = mmode? [+-]? [0-9]+ 
+  { }
+
+modifier
+  = @mod:("A"i / "B"i / "AB"i / "BA"i / "F"i / "X"i / "I"i)
+
+mmode
+  = mode:("#" / "$" / "*" / "@" / "{" / "}" / "<" / ">")
+
+_
   = [ \t]*
