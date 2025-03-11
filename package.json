@@ -12,7 +12,6 @@
     "peggy": "4.2.0"
   },
   "scripts": {
-    "test": "peggy redcode.peggy -T example.redcode --trace -w",
     "build": "peggy -o gen/redcode.js --format es --dts redcode.peggy"
   }
 }
