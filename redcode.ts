@@ -22,20 +22,22 @@ export function parseProgram(code: string): RedcodeProgram {
   return parseRedcode(code);
 }
 
+export function instructionToString(instruction: Instruction): string {
+  return `${instruction.opcode}${
+    instruction.modifier ? `.${instruction.modifier}` : ""
+  } ${
+    instruction.args
+      ? instruction.args
+          .map((arg) => {
+            return arg ? `${arg.mmode || ""}${arg.value}` : "";
+          })
+          .join(", ")
+      : ""
+  }`;
+}
+
 export function lineToString(line: Line): string {
-  const instr = line.instruction
-    ? `${line.instruction.opcode}${
-        line.instruction.modifier ? `.${line.instruction.modifier}` : ""
-      } ${
-        line.instruction.args
-          ? line.instruction.args
-              .map((arg) => {
-                return arg ? `${arg.mmode || ""}${arg.value}` : "";
-              })
-              .join(", ")
-          : ""
-      }`
-    : "";
+  const instr = line.instruction ? instructionToString(line.instruction) : "";
   const comment = line.comment ? `; ${line.comment}` : "";
   return `${instr}${comment}`;
 }

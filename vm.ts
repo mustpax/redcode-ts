@@ -1,14 +1,19 @@
-import { lineToString, type RedcodeProgram } from "./redcode";
+import {
+  instructionToString,
+  lineToString,
+  type Instruction,
+  type RedcodeProgram,
+} from "./redcode";
 
 export function runProgram(program: RedcodeProgram) {
-  const memory = new Array(10000).fill(0);
-  const registers = {
-    a: 0,
-    b: 0,
-    c: 0,
-  };
+  const memory = program.map((line) => line.instruction).filter((i) => i);
+  let pc = 0;
 
-  for (const line of program) {
-    console.log(lineToString(line));
+  while (pc < program.length) {
+    const instruction = memory[pc];
+    if (instruction) {
+      console.log(instructionToString(instruction));
+    }
+    pc++;
   }
 }
