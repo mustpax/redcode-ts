@@ -9,7 +9,9 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "peggy": "4.2.0"
+    "@ryoppippi/unplugin-typia": "2.0.3",
+    "peggy": "4.2.0",
+    "typia": "8.0.1"
   },
   "scripts": {
     "build": "peggy -o gen/redcode.js --format es --dts redcode.peggy"
