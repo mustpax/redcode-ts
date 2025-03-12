@@ -18,6 +18,24 @@ export interface Line {
 
 export type RedcodeProgram = Line[];
 
-export function parse(code: string): RedcodeProgram {
+export function parseProgram(code: string): RedcodeProgram {
   return parseRedcode(code);
+}
+
+export function lineToString(line: Line): string {
+  const instr = line.instruction
+    ? `${line.instruction.opcode}${
+        line.instruction.modifier ? `.${line.instruction.modifier}` : ""
+      } ${
+        line.instruction.args
+          ? line.instruction.args
+              .map((arg) => {
+                return arg ? `${arg.mmode || ""}${arg.value}` : "";
+              })
+              .join(", ")
+          : ""
+      }`
+    : "";
+  const comment = line.comment ? `; ${line.comment}` : "";
+  return `${instr}${comment}`;
 }
