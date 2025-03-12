@@ -1,3 +1,5 @@
+import { parse as parseRedcode } from "./gen/redcode.js";
+
 export interface Argument {
   mmode: string | null;
   value: number;
@@ -15,3 +17,7 @@ export interface Line {
 }
 
 export type RedcodeProgram = Line[];
+
+export function parse(code: string): RedcodeProgram {
+  return parseRedcode(code);
+}
