@@ -4,7 +4,7 @@ export interface Argument {
 }
 
 export interface Instruction {
-  args: [Argument | null, Argument | null];
+  args: [Argument | null, Argument | null] | null;
   modifier: string | null;
   opcode: string;
 }

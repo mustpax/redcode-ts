@@ -175,3 +175,179 @@ exports[`parse all examples long.redcode 1`] = `
   },
 ]
 `;
+
+exports[`parse all examples empty.redcode - snapshot 1`] = `
+[
+  {
+    "comment": null,
+    "instruction": null,
+  },
+]
+`;
+
+exports[`parse all examples comment.redcode - snapshot 1`] = `
+[
+  {
+    "comment": " just comment",
+    "instruction": null,
+  },
+]
+`;
+
+exports[`parse all examples dat.redcode - snapshot 1`] = `
+[
+  {
+    "comment": null,
+    "instruction": {
+      "args": null,
+      "modifier": null,
+      "opcode": "DAT",
+    },
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": null,
+          "value": 1,
+        },
+        {
+          "mmode": null,
+          "value": 1,
+        },
+      ],
+      "modifier": null,
+      "opcode": "JMP",
+    },
+  },
+]
+`;
+
+exports[`parse all examples long.redcode - snapshot 1`] = `
+[
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": null,
+          "value": 0,
+        },
+        {
+          "mmode": null,
+          "value": 0,
+        },
+      ],
+      "modifier": null,
+      "opcode": "DAT",
+    },
+  },
+  {
+    "comment": " this inst kills current process",
+    "instruction": {
+      "args": null,
+      "modifier": null,
+      "opcode": "DAT",
+    },
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 1,
+        },
+        {
+          "mmode": "}",
+          "value": 0,
+        },
+      ],
+      "modifier": "X",
+      "opcode": "MOV",
+    },
+  },
+  {
+    "comment": " comment text",
+    "instruction": null,
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": null,
+      "modifier": null,
+      "opcode": "MOV",
+    },
+  },
+  {
+    "comment": null,
+    "instruction": null,
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": "#",
+          "value": 4,
+        },
+        {
+          "mmode": null,
+          "value": 3,
+        },
+      ],
+      "modifier": null,
+      "opcode": "ADD",
+    },
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": null,
+          "value": 2,
+        },
+        {
+          "mmode": "@",
+          "value": 2,
+        },
+      ],
+      "modifier": null,
+      "opcode": "MOV",
+    },
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": null,
+          "value": -2,
+        },
+        null,
+      ],
+      "modifier": null,
+      "opcode": "JMP",
+    },
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": "#",
+          "value": 0,
+        },
+        {
+          "mmode": "#",
+          "value": 0,
+        },
+      ],
+      "modifier": null,
+      "opcode": "DAT",
+    },
+  },
+]
+`;
