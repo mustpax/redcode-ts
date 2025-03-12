@@ -1,7 +1,7 @@
 import { test, expect, describe } from "bun:test";
 import { parse } from "./gen/redcode.js";
 import { readdir, readFile } from "node:fs/promises";
-import type { RedcodeProgram } from "./types.js";
+import type { RedcodeProgram } from "./redcode.js";
 import { assert } from "typia";
 
 describe("parse all examples", async () => {
