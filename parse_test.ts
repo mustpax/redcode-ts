@@ -1,7 +1,7 @@
 import { test, expect, describe } from "bun:test";
 import { parse } from "./gen/redcode.js";
 import { readdir, readFile } from "node:fs/promises";
-import type { RedcodeProgram } from "./redcode.js";
+import { instructionToString, type RedcodeProgram } from "./redcode.js";
 import { assert } from "typia";
 import { runProgram } from "./vm.js";
 
@@ -23,9 +23,12 @@ describe("parse all examples", async () => {
         memorySize: 40,
         trace: true,
       });
+      const serializedMemory = memory.map((instr) =>
+        instructionToString(instr)
+      );
       expect(pc).toMatchSnapshot();
       expect(trace).toMatchSnapshot();
-      expect(memory).toMatchSnapshot();
+      expect(serializedMemory).toMatchSnapshot();
     });
   }
 });
