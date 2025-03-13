@@ -351,3 +351,2870 @@ exports[`parse all examples long.redcode - snapshot 1`] = `
   },
 ]
 `;
+
+exports[`parse all examples empty.redcode - run 1`] = `
+{
+  "memory": [
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+  ],
+  "pc": 0,
+}
+`;
+
+exports[`parse all examples comment.redcode - run 1`] = `
+{
+  "memory": [
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+  ],
+  "pc": 0,
+}
+`;
+
+exports[`parse all examples dat.redcode - run 1`] = `
+{
+  "memory": [
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 1,
+        },
+        {
+          "mmode": "$",
+          "value": 1,
+        },
+      ],
+      "modifier": "B",
+      "opcode": "JMP",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+  ],
+  "pc": 0,
+}
+`;
+
+exports[`parse all examples long.redcode - run 1`] = `
+{
+  "memory": [
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 1,
+        },
+        {
+          "mmode": "}",
+          "value": 0,
+        },
+      ],
+      "modifier": "I",
+      "opcode": "MOV",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "I",
+      "opcode": "MOV",
+    },
+    {
+      "args": [
+        {
+          "mmode": "#",
+          "value": 4,
+        },
+        {
+          "mmode": "$",
+          "value": 3,
+        },
+      ],
+      "modifier": "AB",
+      "opcode": "ADD",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 2,
+        },
+        {
+          "mmode": "@",
+          "value": 2,
+        },
+      ],
+      "modifier": "I",
+      "opcode": "MOV",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": -2,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "B",
+      "opcode": "JMP",
+    },
+    {
+      "args": [
+        {
+          "mmode": "#",
+          "value": 0,
+        },
+        {
+          "mmode": "#",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+  ],
+  "pc": 0,
+}
+`;
+
+exports[`parse all examples infinite.redcode - snapshot 1`] = `
+[
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": null,
+          "value": 47,
+        },
+        null,
+      ],
+      "modifier": null,
+      "opcode": "JMP",
+    },
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": null,
+      "modifier": null,
+      "opcode": "DAT",
+    },
+  },
+]
+`;
+
+exports[`parse all examples infinite.redcode - run 1`] = `
+{
+  "memory": [
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 47,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "B",
+      "opcode": "JMP",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+  ],
+  "pc": 7,
+}
+`;

@@ -51,6 +51,23 @@ function normalizeArgument(
   return { value: arg.value, mmode: arg.mmode || "$" };
 }
 
+function cloneArgument(arg: NormalizedArgument): NormalizedArgument {
+  return { value: arg.value, mmode: arg.mmode };
+}
+
+function cloneInstruction(
+  instruction: NormalizedInstruction
+): NormalizedInstruction {
+  return {
+    opcode: instruction.opcode,
+    args: [
+      cloneArgument(instruction.args[0]),
+      cloneArgument(instruction.args[1]),
+    ],
+    modifier: instruction.modifier,
+  };
+}
+
 function normalizeInstruction(
   instruction: Instruction | null
 ): NormalizedInstruction {
@@ -71,19 +88,28 @@ function normalizeInstruction(
   };
 }
 
+interface CoreMemory {
+  memory: NormalizedInstruction[];
+  pc: number;
+  trace?: { instruction: NormalizedInstruction; pc: number }[];
+}
+
 export function runProgram({
   program,
   memorySize = 40,
+  trace,
 }: {
   program: RedcodeProgram;
   memorySize?: number;
-}) {
+  trace?: boolean;
+}): CoreMemory {
   const programInstr = program.map((line) => line.instruction).filter((i) => i);
   const memory: NormalizedInstruction[] = new Array(memorySize)
     .fill(null)
     .map((item, index) => programInstr[index] ?? item)
     .map((instr) => normalizeInstruction(instr));
   let pc = 0;
+  const traced: { instruction: NormalizedInstruction; pc: number }[] = [];
 
   function evaluateArgument(arg: NormalizedArgument): number {
     if (arg.mmode === "$") {
@@ -94,7 +120,9 @@ export function runProgram({
 
   while (pc < memory.length) {
     const instruction = memory[pc];
-    console.log(instructionToString(instruction));
+    if (trace) {
+      traced.push({ instruction: cloneInstruction(instruction), pc });
+    }
     if (instruction.opcode === "DAT") {
       break;
     } else if (instruction.opcode === "JMP") {
@@ -103,5 +131,6 @@ export function runProgram({
       pc++;
     }
   }
-  console.log("stopped at address", pc, instructionToString(memory[pc]));
+
+  return { memory, pc, trace: trace ? traced : undefined };
 }

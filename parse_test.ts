@@ -3,6 +3,7 @@ import { parse } from "./gen/redcode.js";
 import { readdir, readFile } from "node:fs/promises";
 import type { RedcodeProgram } from "./redcode.js";
 import { assert } from "typia";
+import { runProgram } from "./vm.js";
 
 describe("parse all examples", async () => {
   // read all the files in the current directory
@@ -15,6 +16,14 @@ describe("parse all examples", async () => {
     });
     test(`${file} - type`, async () => {
       const type = assert<RedcodeProgram>(result);
+    });
+    test(`${file} - run`, async () => {
+      const memory = runProgram({
+        program: result,
+        memorySize: 40,
+        trace: true,
+      });
+      expect(memory).toMatchSnapshot();
     });
   }
 });
