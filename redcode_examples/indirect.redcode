@@ -1,0 +1,4 @@
+jmp *1
+dat    2, 0  ; <- 2 is used as a pointer
+dat    0, 0  
+dat ; should jump here

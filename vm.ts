@@ -114,6 +114,14 @@ export function runProgram({
   function evaluateArgument(arg: NormalizedArgument): number {
     if (arg.mmode === "$") {
       return (pc + arg.value) % memorySize;
+    } else if (arg.mmode === "*") {
+      const targetAddr = arg.value % memorySize;
+      const target = memory[targetAddr];
+      if (!target) {
+        throw new Error(`Invalid indirect address: ${arg.value}`);
+      }
+      const targetA = target.args[0];
+      return (targetAddr + targetA.value) % memorySize;
     }
     throw new Error(`Unsupported addressing mode: ${arg.mmode}`);
   }
