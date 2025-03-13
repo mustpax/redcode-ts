@@ -82,7 +82,7 @@ export function runProgram(program: RedcodeProgram) {
 
   function evaluateArgument(arg: NormalizedArgument): number {
     if (arg.mmode === "$") {
-      return pc + arg.value;
+      return (pc + arg.value) % memorySize;
     }
     throw new Error(`Unsupported addressing mode: ${arg.mmode}`);
   }
