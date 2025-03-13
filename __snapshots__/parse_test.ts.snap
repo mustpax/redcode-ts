@@ -303,6 +303,178 @@ exports[`parse all examples indirect.redcode - run 3`] = `
 ]
 `;
 
+exports[`parse all examples indirect-b.redcode - snapshot 1`] = `
+[
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": "@",
+          "value": 1,
+        },
+        null,
+      ],
+      "modifier": null,
+      "opcode": "JMP",
+    },
+  },
+  {
+    "comment": " <- 2 is used as a pointer",
+    "instruction": {
+      "args": [
+        {
+          "mmode": null,
+          "value": 2,
+        },
+        {
+          "mmode": null,
+          "value": 4,
+        },
+      ],
+      "modifier": null,
+      "opcode": "DAT",
+    },
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": [
+        {
+          "mmode": null,
+          "value": 0,
+        },
+        {
+          "mmode": null,
+          "value": 0,
+        },
+      ],
+      "modifier": null,
+      "opcode": "DAT",
+    },
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": null,
+      "modifier": null,
+      "opcode": "DAT",
+    },
+  },
+  {
+    "comment": null,
+    "instruction": {
+      "args": null,
+      "modifier": null,
+      "opcode": "DAT",
+    },
+  },
+  {
+    "comment": " <- should jump here",
+    "instruction": {
+      "args": [
+        {
+          "mmode": null,
+          "value": 7,
+        },
+        {
+          "mmode": null,
+          "value": 7,
+        },
+      ],
+      "modifier": null,
+      "opcode": "DAT",
+    },
+  },
+]
+`;
+
+exports[`parse all examples indirect-b.redcode - run 1`] = `5`;
+
+exports[`parse all examples indirect-b.redcode - run 2`] = `
+[
+  {
+    "instruction": {
+      "args": [
+        {
+          "mmode": "@",
+          "value": 1,
+        },
+        {
+          "mmode": "$",
+          "value": 0,
+        },
+      ],
+      "modifier": "B",
+      "opcode": "JMP",
+    },
+    "pc": 0,
+  },
+  {
+    "instruction": {
+      "args": [
+        {
+          "mmode": "$",
+          "value": 7,
+        },
+        {
+          "mmode": "$",
+          "value": 7,
+        },
+      ],
+      "modifier": "F",
+      "opcode": "DAT",
+    },
+    "pc": 5,
+  },
+]
+`;
+
+exports[`parse all examples indirect-b.redcode - run 3`] = `
+[
+  "JMP.B @1, $0",
+  "DAT.F $2, $4",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $7, $7",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+  "DAT.F $0, $0",
+]
+`;
+
 exports[`parse all examples dat.redcode - snapshot 1`] = `
 [
   {
