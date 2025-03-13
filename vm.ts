@@ -71,7 +71,7 @@ function normalizeInstruction(
   };
 }
 
-export function runProgram(program: RedcodeProgram) {
+export function runProgram({ program }: { program: RedcodeProgram }) {
   const memorySize = 40;
   const programInstr = program.map((line) => line.instruction).filter((i) => i);
   const memory: NormalizedInstruction[] = new Array(memorySize)

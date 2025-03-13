@@ -19,7 +19,7 @@ try {
 
   // Execute the program
   console.log(`Executing program from ${programPath}:`);
-  runProgram(program);
+  runProgram({ program });
 } catch (error: any) {
   console.error("Error:", error?.message ?? String(error));
   process.exit(1);
