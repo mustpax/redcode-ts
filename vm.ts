@@ -96,7 +96,7 @@ interface CoreMemory {
 
 export function runProgram({
   program,
-  memorySize = 40,
+  memorySize = 20,
   trace,
 }: {
   program: RedcodeProgram;

@@ -15,14 +15,16 @@ describe("parse all examples", async () => {
       expect(result).toMatchSnapshot();
     });
     test(`${file} - type`, async () => {
-      const type = assert<RedcodeProgram>(result);
+      assert<RedcodeProgram>(result);
     });
     test(`${file} - run`, async () => {
-      const memory = runProgram({
+      const { memory, trace, pc } = runProgram({
         program: result,
         memorySize: 40,
         trace: true,
       });
+      expect(pc).toMatchSnapshot();
+      expect(trace).toMatchSnapshot();
       expect(memory).toMatchSnapshot();
     });
   }
